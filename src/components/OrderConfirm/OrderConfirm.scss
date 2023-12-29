@@ -1,0 +1,42 @@
+.order-confirm {
+  margin: 100px 0;
+ 
+
+  &__wrapper {
+    border: #3c4242 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.product-confirm {
+  &__title {
+    color: #3c4242;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.68px;
+    margin-bottom: 70px;
+    
+  }
+  .product-confirm__item{
+  margin-bottom: 20px;
+  }
+
+  .product-confirm__item-wrapper{
+    display: flex;
+    gap: 20px;
+    .product-confirm__item-img{
+      width: 100px;
+      border-radius: 15px;
+    }
+    .product-confirm__item-info{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      
+    }
+  }
+}
