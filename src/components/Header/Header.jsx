@@ -6,6 +6,7 @@ import Container from "../Helper/Container"
 import Body from "../Helper/Body"
 import NavMenu from "./components/NavMenu"
 import HeaderBtn from "./components/HeaderBtn"
+import logo from "../../../src/assets/img/logo.png"
 import "./Header.scss"
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
             <Container>
                 <Body headerBody>
                     <Link to="/">
-                        <img src="../../../src/assets/img/logo.png" alt="" />
+                        <img src={logo} alt="" />
                     </Link>
                     <NavMenu />
                     <HeaderBtn/>
